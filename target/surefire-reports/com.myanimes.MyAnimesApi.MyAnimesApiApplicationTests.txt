@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.myanimes.MyAnimesApi.MyAnimesApiApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.996 s - in com.myanimes.MyAnimesApi.MyAnimesApiApplicationTests
