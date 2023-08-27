@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController
-@RequestMapping("/")
-@CrossOrigin(origins = "https://myanime-frontend.web.app")
+@RequestMapping("/api/v1")
+@CrossOrigin(origins = "*")
 public class SeasonController {
     @Autowired
     private SeasonService seasonService;

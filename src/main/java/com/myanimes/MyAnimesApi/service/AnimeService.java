@@ -1,6 +1,7 @@
 package com.myanimes.MyAnimesApi.service;
 
 import com.myanimes.MyAnimesApi.entity.Anime;
+import com.myanimes.MyAnimesApi.entity.Genre;
 import com.myanimes.MyAnimesApi.entity.Season;
 
 import java.util.List;
@@ -14,4 +15,5 @@ public interface AnimeService{
 
     List<Anime> getActiveAnimes();
 
+    List<Season> getSeasonsByAnimeId(Integer id);
 }
