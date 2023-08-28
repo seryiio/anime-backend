@@ -5,21 +5,15 @@ import lombok.*;
 
 @Data
 @Entity
-@Table(name = "my_lists")
+@Table(name = "roles")
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class MyList {
+public class Role {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Long id;
 
-    @ManyToOne
-    @JoinColumn(name = "user_id")
-    private Users user;
-
-    @ManyToOne
-    @JoinColumn(name = "anime_id")
-    private Anime anime;
+    private String authority;
 }

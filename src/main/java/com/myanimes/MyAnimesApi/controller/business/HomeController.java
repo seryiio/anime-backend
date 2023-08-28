@@ -1,4 +1,4 @@
-package com.myanimes.MyAnimesApi.controller;
+package com.myanimes.MyAnimesApi.controller.business;
 
 import com.myanimes.MyAnimesApi.entity.Anime;
 import com.myanimes.MyAnimesApi.entity.Genre;
@@ -18,7 +18,7 @@ import java.util.Optional;
 @CrossOrigin(origins = "*")
 @RestController
 @RequestMapping(value = "/api/v1")
-public class AnimeController {
+public class HomeController {
 
     @Autowired
     private AnimeService animeService;

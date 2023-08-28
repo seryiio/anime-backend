@@ -1,4 +1,4 @@
-package com.myanimes.MyAnimesApi.controller;
+package com.myanimes.MyAnimesApi.controller.business;
 
 import com.myanimes.MyAnimesApi.entity.Season;
 import com.myanimes.MyAnimesApi.repository.SeasonRepository;
